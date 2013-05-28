@@ -21,7 +21,7 @@ public class MainActivity extends  Activity {
 	    setContentView(R.layout.activity_main);
 	    map = ((MapFragment) getFragmentManager().findFragmentById(R.id.map))
 	        .getMap();
-	    Marker tamanmini = map.addMarker(new MarkerOptions()
+	    Marker denpasar = map.addMarker(new MarkerOptions()
 	        .position(DENPASAR)
 	        .title("Denpasar")
 	        .snippet("Kota Denpasar - Kota Berwawasan Budaya"));
